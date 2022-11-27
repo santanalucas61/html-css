@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color:blue;
+            margin: 0px;
+        }
+        header{
+            background-color: rgb(255, 255, 0);
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav{
+            background-color: rgb(68, 68, 68);
+            padding: 3px;
+            box-shadow: 5px 3px 7px 1px red
+        }
+
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 50px;
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+            color: red;
+        }
+
+        main{
+            background-color: pink;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 5px 3px 7px 1px red;
+        }
+        article{
+            background-color: green;
+            padding: 5px;
+        }
+        article > aside{
+            background-color: red;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+        footer > P{
+            margin: 0px;
+        }
+        div#bola{
+            height: 100px;
+            width: 100px;
+            background-color: white;
+            margin: 10px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header> <!-- Cabeçalho -->
+        <h1>Meu site</h1>
+        <nav> <!-- Para criar menu-->
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+
+    <main> <!-- Corpo -->
+        <section id="assuntos">
+            <p>Esporte Política Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícia sobre...</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit veniam sed, incidunt natus ullam harum mollitia ea accusamus facere sequi quibusdam consequatur, placeat saepe illo ratione, laudantium animi possimus in!</p>
+                <aside>
+                    <p>Artigo escrito por Lucas Santana</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+
+    <footer><!--Rodapé-->
+        <p>Desenvolvido pelo Lucas</p>
+    </footer>
+
+    <div id="bola">
+
+    </div>
+</body>
+</html>

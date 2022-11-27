@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras formatações</title>
+</head>
+<body>
+    <h1>Outras formatações</h1>
+    <h2>Código fonte / pré-formatação</h2>
+    <p>O comando <code>document.getElementById('teste')</code> é escrito em linguagem JavaScript.</p>
+    <!--A tag code adiciona uma fonte monoespaçada, ótima para ler códigos.-->
+
+<pre>
+    <code>
+        num = int(input('Digite um número'))
+        if num % 2 == 0:
+            print(f'O número {num} é PAR')
+        else:
+            print(f'O númerto {num} é ÍMPAR')
+        print('Fim do programa')
+    </code>
+</pre>
+
+    <h2>Citações simples</h2>
+    <p>Como diria o pai de um amigo: <q>o computador é um burro muito rápido.</q></p>
+    <!--A tag Q é utilizada para citação.-->
+
+    <h2>Citações completas</h2>
+    <p>Segundo Fulano de tal, no seu livro HTML:</p>
+    <blockquote cite="https://www.google.com.br/books/edition/Fundamentos_de_HTML5_e_CSS3/2iPYCQAAQBAJ?hl=pt-BR&gbpv=1&dq=html&printsec=frontcover">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste ad debitis exercitationem odio fuga maiores architecto quod at explicabo. Reiciendis, a! Tenetur est impedit odit nulla illo animi, reiciendis accusantium.
+    </blockquote>
+    <!--A tag blockquote é para um citação completa, tem uma quebra de linha e um deslocamento horizontal para a lateral direita.-->
+
+    <h2>Abreviações</h2>
+    <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando!</p>
+    <!--A tag abbr é usada para descrever uma abreviação.-->
+
+    <h2>Texto invertido</h2>
+    <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML.</bdo></p>
+    <!-- A tag bdo dir="rtl e ltr" direita para esquerda ou esquerda para direita, inverte a frase.-->
+
+</body>
+</html>
